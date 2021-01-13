@@ -16,3 +16,15 @@ console.log(Khwaja_pasha);
 let job1 = "Marketing";
 let job2 = "Programmer";
 console.log("my first job--->", job1, "+", "my senond job--->", job2);
+
+// Assignment:-->
+// 1. Declare variables called 'country', 'continent' and 'population' and
+// assign their values according to your own country (population in millions)
+// 2. Log their values to the console
+
+let country = "India";
+let continent = "Asia";
+let population = "135cr";
+console.log("my country--->", country);
+console.log("my continent--->", continent);
+console.log("my population--->", population);
