@@ -52,7 +52,7 @@ let year; // undefined
 console.log(typeof year);
 
 let month = null;
-console.log("this is null --->", month);*/
+console.log("this is null --->", month);
 
 // ====== let, const & var ======
 
@@ -81,4 +81,27 @@ lastName = "khwaja";
 console.log(lastName);
 //no let not const no var
 // can called globle scope
-// not a good idea
+// not a good idea*/
+
+// ======Operators in js======
+
+const now = 2021;
+const ageKhwaja = now - 1992; // substraction operator
+const ageZainab = now - 2019;
+console.log(ageKhwaja, ageZainab);
+
+console.log(ageKhwaja * 2, ageKhwaja / 2, 5 ** 3);
+//5**3 means 2 to the power of 3 (5*5*5) clalled exponentioal operator
+
+const firstName = "khwaja";
+const lastName = "pasha";
+console.log(firstName + " " + lastName);
+// can used to cancate 2 string
+
+// typeof operator already learned ablove line no 49
+
+let x = 10 + 5; // is equals to15
+x += 10; // is equals to ==> x=x+10(x having value 15 and it adding 10 thenn result =25)
+x *= 5; // x= x * 5
+x -= 5; // x= x-5
+console.log(x);
