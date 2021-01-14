@@ -81,9 +81,9 @@ lastName = "khwaja";
 console.log(lastName);
 //no let not const no var
 // can called globle scope
-// not a good idea*/
+// not a good idea
 
-// ======Operators in js======
+// ======Math Operators in js======
 
 const now = 2021;
 const ageKhwaja = now - 1992; // substraction operator
@@ -104,4 +104,25 @@ let x = 10 + 5; // is equals to15
 x += 10; // is equals to ==> x=x+10(x having value 15 and it adding 10 thenn result =25)
 x *= 5; // x= x * 5
 x -= 5; // x= x-5
+x++; // x = x + 1
+x--; // x = x - 1
 console.log(x);
+
+// ===== Comparision Operators =====
+console.log(ageKhwaja > ageZainab);
+console.log(ageKhwaja < ageZainab);
+// also we can use >= , <=
+
+console.log(ageZainab >= 18);
+console.log(ageZainab >= 1);
+// u can store the value in variable
+
+zainabAge = ageZainab >= 18; // assigned in variable
+console.log(zainabAge);
+
+console.log(now - 1992 > now - 2019);
+// here now-1992 = 29 > now-2019 =2 reasult will be = true*/
+
+// ====== Operator Precedence ======
+// you can check the percedence at google"mdn operator precedence"
+// go to developer.mozilla.org
