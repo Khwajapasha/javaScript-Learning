@@ -126,3 +126,35 @@ console.log(now - 1992 > now - 2019);
 // ====== Operator Precedence ======
 // you can check the percedence at google"mdn operator precedence"
 // go to developer.mozilla.org
+
+// Coding challenge
+
+//Data 1
+// const massMark = 78;
+// const hightMark = 1.69;
+
+// let BMIMark = massMark / hightMark ** 2;
+// console.log("BMIMark===>", BMIMark);
+
+// const massJohn = 92;
+// const heightJohn = 1.95;
+
+// let BMIJohn = massJohn / heightJohn ** 2;
+// console.log("heightJohn==>", BMIJohn);
+
+// const markHigherBMI = BMIMark > BMIJohn;
+// console.log(markHigherBMI);
+
+//Data 2
+
+// const massMark = 95;
+// const heightmark = 1.88;
+// const massJohn = 85;
+// const heightJohn = 1.76;
+// const BMIMark = massMark / (heightmark * heightmark);
+// console.log(BMIMark);
+// const BMIJohn = massJohn / (heightJohn * heightJohn);
+// console.log(BMIJohn);
+
+// const markHigherBMI = BMIMark > BMIJohn;
+// console.log("markHigherBMI=======>", markHigherBMI);
