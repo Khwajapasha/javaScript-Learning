@@ -157,4 +157,36 @@ console.log(now - 1992 > now - 2019);
 // console.log(BMIJohn);
 
 // const markHigherBMI = BMIMark > BMIJohn;
-// console.log("markHigherBMI=======>", markHigherBMI);
+// console.log("markHigherBMI=======>", markHigherBMI)
+
+//=== String & Template Literal ===
+
+const firstName = "Khwaja";
+const job = "Programmer";
+const birthYear = 1992;
+const currentYear = 2021;
+
+const myAge =
+  " I'm " +
+  firstName +
+  ",a" +
+  (birthYear - currentYear) +
+  " year old " +
+  job +
+  "!..";
+console.log(myAge);
+
+//It is the old method of string concatonation
+// to overcome this problem we use "Template Literal" (instead of "" we use `` and instead of + we use $)
+
+//ex
+
+const myAgeNew = `I'm ${firstName}, a ${
+  birthYear - currentYear
+} year old ${job} !...`;
+console.log(myAgeNew);
+
+// Also we write multiple line with this method
+console.log(`String with 
+multiple 
+line`); // new ES6 Style
